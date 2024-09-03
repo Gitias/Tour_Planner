@@ -49,8 +49,13 @@
         <Label Grid.Row="8"
                Content="Transport Type" />
 
-        <TextBox Grid.Row="9"
-                 Text="{Binding TransportType}" />
+        <ComboBox Grid.Row="9"
+                 Text="{Binding TransportType}">
+            <ComboBoxItem Content="Biking" />
+            <ComboBoxItem Content="Hiking" />
+            <ComboBoxItem Content="Running" />
+            <ComboBoxItem Content="Vacation" />
+        </ComboBox>
 
         <Button Grid.Row="10"
                 Content="Create Tour"

@@ -3,6 +3,7 @@
     public class TourLog
     {
         public int Id { get; set; }
+        public int TourId { get; set; }
         public DateTime Date { get; set; }
         public string? Comment { get; set; }
         public string? Difficulty { get; set; }

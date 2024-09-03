@@ -52,6 +52,8 @@ C:\Users\musta\source\repos\Tourplanner_\Tourplanner_\obj\Debug\net8.0-windows\r
 C:\Users\musta\source\repos\Tourplanner_\Tourplanner_\obj\Debug\net8.0-windows\Tourplanner_.pdb
 C:\Users\musta\source\repos\Tourplanner_\Tourplanner_\obj\Debug\net8.0-windows\Tourplanner_.genruntimeconfig.cache
 C:\Users\musta\source\repos\Tourplanner_\Tourplanner_\obj\Debug\net8.0-windows\ref\Tourplanner_.dll
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner_\obj\Debug\net8.0-windows\Features\AddLog\AddLogView.g.cs
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner_\obj\Debug\net8.0-windows\Features\AddLog\AddLogView.baml
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\bin\Debug\net8.0-windows\appsettings.json
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\bin\Debug\net8.0-windows\Tourplanner_.exe
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\bin\Debug\net8.0-windows\Tourplanner_.deps.json
@@ -85,6 +87,7 @@ C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\bin\Debug\net8.0-windows\
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\bin\Debug\net8.0-windows\Tourplanner.DAL.pdb
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\bin\Debug\net8.0-windows\Tourplanner.Shared.pdb
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Tourplanner_.csproj.AssemblyReference.cache
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Features\AddLog\AddLogView.g.cs
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Features\AddTour\AddTourView.g.cs
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Features\TourView\TourView.g.cs
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\MainWindow.g.cs
@@ -92,6 +95,7 @@ C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Tourplanner__MarkupCompile.cache
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Tourplanner__MarkupCompile.lref
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Features\AddLog\AddLogView.baml
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Features\AddTour\AddTourView.baml
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\Features\TourView\TourView.baml
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\obj\Debug\net8.0-windows\MainWindow.baml

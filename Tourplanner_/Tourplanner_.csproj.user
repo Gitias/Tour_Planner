@@ -7,6 +7,9 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Features\AddLog\AddLogView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Features\AddTour\AddTourView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +18,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Features\AddLog\AddLogView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Features\AddTour\AddTourView.xaml">
       <SubType>Designer</SubType>
     </Page>

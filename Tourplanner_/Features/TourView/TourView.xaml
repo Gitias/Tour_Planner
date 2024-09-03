@@ -7,111 +7,155 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal"
+        <Menu Grid.Row="0" VerticalAlignment="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="Import" Command="{Binding ImportCommand}" />
+                <MenuItem Header="Export" Command="{Binding ExportCommand}" />
+            </MenuItem>
+
+            <MenuItem Header="_Pdf">
+                <MenuItem Header="Single PDF" Command="{Binding TourPdfCommand}" />
+                <MenuItem Header="Summarize PDF" Command="{Binding SummarizePdfCommand}" />
+            </MenuItem>
+        </Menu>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10">
+            <TextBox x:Name="SearchTextBox" Width="250" Height="25" />
+            <Button Content="Search"
+                    Height="25"
+                    Margin="5,0,0,0"
+                    Command="{Binding SearchCommand}" CommandParameter="{Binding Text, ElementName=SearchTextBox}" />
+        </StackPanel>
+
+        <Grid Grid.Row="2" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+
+            <StackPanel Orientation="Horizontal"
                     Grid.Row="0"
                     Grid.Column="0">
 
-            <Button Content="Add"
+                <Button Content="Add"
                     Width="60"
                     Margin="5"
                     Command="{Binding AddTourCommand}" />
 
-            <Button Content="Edit"
+                <Button Content="Edit"
                     Width="60"
                     Margin="5"
                     Command="{Binding EditTourCommand}" />
 
-            <Button Content="Delete"
+                <Button Content="Delete"
                     Width="60"
                     Margin="5"
                     Command="{Binding DeleteTourCommand}" />
-        </StackPanel>
+            </StackPanel>
 
-        <ListView Grid.Row="1"
+            <ListView Grid.Row="1"
                   Grid.Column="0"
                   ItemsSource="{Binding Tours}"
                   SelectedItem="{Binding SelectedTour}">
 
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextBlock Text="{Binding Name}" />
-                </DataTemplate>
-            </ListView.ItemTemplate>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
 
-        </ListView>
+            </ListView>
 
-        <TabControl Grid.Row="0"
+            <TabControl Grid.Row="0"
                     Grid.Column="1"
                     Grid.RowSpan="2">
 
-            <TabItem Header="General">
-                <StackPanel Margin="10">
-                    <TextBlock Text="Name:" FontWeight="Bold" />
-                    <TextBlock Text="{Binding SelectedTour.Name}" />
+                <TabItem Header="General">
+                    <StackPanel Margin="10">
+                        <TextBlock Text="Name:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding SelectedTour.Name}" />
 
-                    <TextBlock Text="Description:" FontWeight="Bold" />
-                    <TextBlock Text="{Binding SelectedTour.Description}" />
+                        <TextBlock Text="Description:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding SelectedTour.Description}" />
 
-                    <TextBlock Text="From:" FontWeight="Bold" />
-                    <TextBlock Text="{Binding SelectedTour.From}" />
+                        <TextBlock Text="From:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding SelectedTour.From}" />
 
-                    <TextBlock Text="To:" FontWeight="Bold" />
-                    <TextBlock Text="{Binding SelectedTour.To}" />
+                        <TextBlock Text="To:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding SelectedTour.To}" />
 
-                    <TextBlock Text="TransportType:" FontWeight="Bold" />
-                    <TextBlock Text="{Binding SelectedTour.TransportType}" />
-                </StackPanel>
-           
-            </TabItem>
+                        <TextBlock Text="TransportType:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding SelectedTour.TransportType}" />
 
-            <TabItem Header="Route">
+                        <TextBlock Text="ChildFriendliness:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding ChildFriendliness}" />
 
-            </TabItem>
+                        <TextBlock Text="Popularity:" FontWeight="Bold" />
+                        <TextBlock Text="{Binding Popularity}" />
+                    </StackPanel>
 
-            <TabItem Header="Misc">
-                
-            </TabItem>
+                </TabItem>
 
-        </TabControl>
+                <TabItem Header="Route">
 
-        <StackPanel Orientation="Horizontal"
+                </TabItem>
+
+                <TabItem Header="Misc">
+
+                </TabItem>
+
+            </TabControl>
+
+            <StackPanel Orientation="Horizontal"
                     Grid.Row="2"
                     Grid.Column="1"
                     HorizontalAlignment="Right">
 
-            <Button Content="Add Log"
+                <Button Content="Add Log"
                     Width="80"
                     Margin="5"
-                    Command="{Binding AddLogCommand}" />
+                    Command="{Binding AddTourLogCommand}" />
 
-            <Button Content="Edit Log"
+                <Button Content="Edit Log"
                     Width="80"
                     Margin="5"
-                    Command="{Binding EditLogCommand}" />
+                    Command="{Binding EditTourLogCommand}" />
 
-            <Button Content="Delete Log"
+                <Button Content="Delete Log"
                     Width="80"
                     Margin="5"
-                    Command="{Binding DeleteLogCommand}" />
-        </StackPanel>
+                    Command="{Binding DeleteTourLogCommand}" />
+            </StackPanel>
 
-        <ListView Grid.Row="3"
+            <ListView Grid.Row="3"
                   Grid.Column="1"
-                  ItemsSource="{Binding TouurLogs}"
+                  ItemsSource="{Binding TourLogs}"
                   SelectedItem="{Binding SelectedTourLog}">
+                <ListView.View>
+                    <GridView>
 
-        </ListView>
+                        <GridViewColumn Header="Date" DisplayMemberBinding="{Binding Date}" />
+                        <GridViewColumn Header="Difficulty" DisplayMemberBinding="{Binding Difficulty}" />
+                        <GridViewColumn Header="Distance" DisplayMemberBinding="{Binding Distance}" />
+                        <GridViewColumn Header="TotalTime" DisplayMemberBinding="{Binding TotalTime}" />
+                        <GridViewColumn Header="Rating" DisplayMemberBinding="{Binding Rating}" />
+                        <GridViewColumn Header="Comment" DisplayMemberBinding="{Binding Comment}" />
+                    </GridView>
+                </ListView.View>
+            </ListView>
 
+        </Grid>
     </Grid>
 </UserControl>

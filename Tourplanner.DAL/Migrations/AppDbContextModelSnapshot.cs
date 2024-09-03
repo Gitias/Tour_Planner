@@ -30,6 +30,9 @@ namespace Tourplanner.DAL.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ChildFriendliness")
+                        .HasColumnType("text");
+
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
@@ -37,6 +40,9 @@ namespace Tourplanner.DAL.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("Name")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Popularity")
                         .HasColumnType("text");
 
                     b.Property<string>("To")
@@ -76,9 +82,28 @@ namespace Tourplanner.DAL.Migrations
                     b.Property<TimeSpan>("TotalTime")
                         .HasColumnType("interval");
 
+                    b.Property<int>("TourId")
+                        .HasColumnType("integer");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("TourId");
+
                     b.ToTable("TourLogs");
+                });
+
+            modelBuilder.Entity("Tourplanner.Shared.TourLog", b =>
+                {
+                    b.HasOne("Tourplanner.Shared.Tour", null)
+                        .WithMany("TourLogs")
+                        .HasForeignKey("TourId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Tourplanner.Shared.Tour", b =>
+                {
+                    b.Navigation("TourLogs");
                 });
 #pragma warning restore 612, 618
         }

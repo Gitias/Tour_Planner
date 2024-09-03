@@ -8,5 +8,8 @@
         public string? From { get; set; }
         public string? To { get; set; }
         public string? TransportType { get; set; }
+        public string? ChildFriendliness { get; set; }
+        public string? Popularity { get; set; }
+        public virtual ICollection<TourLog> TourLogs { get; set; }
     }
 }

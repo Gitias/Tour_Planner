@@ -28,3 +28,5 @@ Dendency Injections --> das was am anfang erstellt wird damit nur "einmal instan
 
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+
+

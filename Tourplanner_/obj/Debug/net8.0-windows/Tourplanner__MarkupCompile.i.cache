@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner_\App.xaml
-3893539749
+41857810854
 
-121103895368
+16-382121606
 2211991034545
-Features\AddTour\AddTourView.xaml;Features\TourView\TourView.xaml;MainWindow.xaml;
+Features\AddLog\AddLogView.xaml;Features\AddTour\AddTourView.xaml;Features\TourView\TourView.xaml;MainWindow.xaml;
 
 True
 
