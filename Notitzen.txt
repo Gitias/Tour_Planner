@@ -1,0 +1,30 @@
+Notizen
+
+Nugget packet 
+--> Microsoft Extension Dependency injections (Microsoft.Extensions.DependencyInjection)
+--> Microsoft.EntityFrameworkCore (O/R Mappper)
+--> Npgsql.EntityFrameworkCore.PostgreSQL
+--> Microsoft.Extensions.Configuration.Json
+--> Microsoft.EntityFrameworkCore.Design
+UNBEDINGT ALLE AUF SELBER VERSION
+Build -> clean solution
+
+Database Connection String:
+
+﻿{
+  "ConnectionStrings": {
+    "local_tour_planner": "Host=localhost;Username=Tobias;Database=tourplanner;Password=Snoopy2002;"
+  }
+
+}
+
+appsettings.json
+-> Properties = copy id new
+
+O/R Mapper Commands
+https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+
+Dendency Injections --> das was am anfang erstellt wird damit nur "einmal instancen" erstellt werden
+
+dotnet ef migrations add InitialCreate
+dotnet ef database update

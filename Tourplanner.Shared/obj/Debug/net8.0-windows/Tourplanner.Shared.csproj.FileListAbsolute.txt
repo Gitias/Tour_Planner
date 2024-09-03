@@ -1,0 +1,23 @@
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\bin\Debug\net8.0-windows\Tourplanner.Shared.deps.json
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\bin\Debug\net8.0-windows\Tourplanner.Shared.dll
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\bin\Debug\net8.0-windows\Tourplanner.Shared.pdb
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.AssemblyInfoInputs.cache
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.AssemblyInfo.cs
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.csproj.CoreCompileInputs.cache
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.dll
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\refint\Tourplanner.Shared.dll
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.pdb
+C:\Users\musta\source\repos\Tourplanner_\Tourplanner.Shared\obj\Debug\net8.0-windows\ref\Tourplanner.Shared.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\bin\Debug\net8.0-windows\Tourplanner.Shared.deps.json
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\bin\Debug\net8.0-windows\Tourplanner.Shared.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\bin\Debug\net8.0-windows\Tourplanner.Shared.pdb
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.AssemblyInfoInputs.cache
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.AssemblyInfo.cs
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.csproj.CoreCompileInputs.cache
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.sourcelink.json
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\refint\Tourplanner.Shared.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\Tourplanner.Shared.pdb
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.Shared\obj\Debug\net8.0-windows\ref\Tourplanner.Shared.dll
