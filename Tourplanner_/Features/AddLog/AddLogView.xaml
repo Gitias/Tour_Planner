@@ -1,0 +1,81 @@
+﻿<Window x:Class="Tourplanner_.Features.AddLog.AddLogView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tourplanner_.Features.AddLog"
+        mc:Ignorable="d"
+        Title="AddLogView" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0"
+               Content="Date:" />
+
+        <DatePicker Grid.Row="1"
+                    SelectedDate="{Binding Date}"/>
+
+        <Label Grid.Row="2"
+               Content="Comment:" />
+
+        <TextBox Grid.Row="3"
+                 Text="{Binding Comment}"
+                 VerticalScrollBarVisibility="Auto"/>
+
+        <Label Grid.Row="4"
+               Content="Difficulty" />
+
+        <ComboBox Grid.Row="5"
+                 Text="{Binding Difficulty}">
+            <ComboBoxItem Content="1" />
+            <ComboBoxItem Content="2" />
+            <ComboBoxItem Content="3" />
+            <ComboBoxItem Content="4" />
+            <ComboBoxItem Content="5" />
+        </ComboBox>
+
+        <Label Grid.Row="6"
+               Content="Total Distance (in km):" />
+
+        <TextBox Grid.Row="7"
+                 Text="{Binding Distance}" />
+
+        <Label Grid.Row="8"
+               Content="Total Time:" />
+
+        <TextBox Grid.Row="9"
+                 Text="{Binding TotalTime}" />
+
+        <Label Grid.Row="10"
+                Content="Rating:" />
+
+        <ComboBox Grid.Row="11"
+                  Text="{Binding Rating}" >
+
+            <ComboBoxItem Content="1" />
+            <ComboBoxItem Content="2" />
+            <ComboBoxItem Content="3" />
+            <ComboBoxItem Content="4" />
+            <ComboBoxItem Content="5" />
+
+        </ComboBox>
+
+        <Button Grid.Row="12"
+                Content="Create Log"
+                Command="{Binding AddLogCommand}" />
+    </Grid>
+</Window>
