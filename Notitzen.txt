@@ -18,8 +18,8 @@ Database Connection String:
 
 }
 
-appsettings.json
--> Properties = copy id new
+appsettings.json 
+-> Properties = copy id new (Ganz Wichtig)
 
 O/R Mapper Commands
 https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli

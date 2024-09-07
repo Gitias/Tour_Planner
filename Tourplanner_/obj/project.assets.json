@@ -1233,19 +1233,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Anwender\\.nuget\\packages\\": {}
+    "C:\\Users\\t-sch\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Tourplanner_.csproj",
+      "projectUniqueName": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Tourplanner_.csproj",
       "projectName": "Tourplanner_",
-      "projectPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Tourplanner_.csproj",
-      "packagesPath": "C:\\Users\\Anwender\\.nuget\\packages\\",
-      "outputPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\obj\\",
+      "projectPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Tourplanner_.csproj",
+      "packagesPath": "C:\\Users\\t-sch\\.nuget\\packages\\",
+      "outputPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Anwender\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\t-sch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1253,20 +1258,21 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\Tourplanner.BL.csproj": {
-              "projectPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\Tourplanner.BL.csproj"
+            "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\Tourplanner.BL.csproj": {
+              "projectPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\Tourplanner.BL.csproj"
             },
-            "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj": {
-              "projectPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj"
+            "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj": {
+              "projectPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj"
             },
-            "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj": {
-              "projectPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj"
+            "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj": {
+              "projectPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj"
             }
           }
         }

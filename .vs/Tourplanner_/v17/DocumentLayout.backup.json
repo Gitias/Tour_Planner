@@ -1,121 +1,121 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\",
+  "WorkspaceRootPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.bl\\tourattributecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\tourattributecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.bl\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.bl\\tourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\tourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.bl\\itourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\itourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.bl\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\addlog\\addlogview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addlog\\addlogview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\addlog\\addlogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addlog\\addlogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\addtour\\addtourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addtour\\addtourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\validierung\\iinputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\validierung\\iinputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\tourview\\tourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\validierung\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\validierung\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.shared\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|solutionrelative:tourplanner.shared\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.shared\\tourplanner.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|solutionrelative:tourplanner.shared\\tourplanner.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\itourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\itourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\tourplanner.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\tourplanner.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\tourplanner.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.bl\\itourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\itourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.bl\\tourattributecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\tourattributecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.bl\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.bl\\tourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\tourlogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.bl\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}|Tourplanner.BL\\Tourplanner.BL.csproj|solutionrelative:tourplanner.bl\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\addlog\\addlogview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addlog\\addlogview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\addlog\\addlogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addlog\\addlogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\addtour\\addtourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addtour\\addtourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\validierung\\iinputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\validierung\\iinputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\tourview\\tourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\validierung\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\validierung\\inputvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.shared\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|solutionrelative:tourplanner.shared\\tour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.shared\\tourplanner.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|solutionrelative:tourplanner.shared\\tourplanner.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\itourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\itourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.shared\\tourlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.shared\\tourlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|solutionrelative:tourplanner.shared\\tourlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\features\\addtour\\addtourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\addtour\\addtourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addtour\\addtourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\tourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\tourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\tourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner.dal\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|solutionrelative:tourplanner.dal\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh technikum\\swen4\\tour_planner\\tourplanner_\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -126,79 +126,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 199,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddTourView.xaml",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
-              "RelativeToolTip": "Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-03T15:53:01.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AddTourViewModel.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
-              "RelativeToolTip": "Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:51:40.607Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RelayCommand.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\RelayCommand.cs",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\RelayCommand.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\RelayCommand.cs",
-              "RelativeToolTip": "Tourplanner_\\Features\\RelayCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T18:24:06.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TourView.xaml",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourView.xaml",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourView.xaml",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\TourView\\TourView.xaml",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourView.xaml",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourView.xaml",
               "RelativeToolTip": "Tourplanner_\\Features\\TourView\\TourView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-01T17:54:17.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T17:54:17.555Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "BaseViewModel.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\BaseViewModel.cs",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\BaseViewModel.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\BaseViewModel.cs",
-              "RelativeToolTip": "Tourplanner_\\Features\\BaseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T19:29:06.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "ITourLogService.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\ITourLogService.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\ITourLogService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\ITourLogService.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\ITourLogService.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\ITourLogService.cs",
               "RelativeToolTip": "Tourplanner.BL\\ITourLogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -207,11 +154,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\RelayCommand.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\RelayCommand.cs",
+              "RelativeToolTip": "Tourplanner_\\Features\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:24:06.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\BaseViewModel.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\BaseViewModel.cs",
+              "RelativeToolTip": "Tourplanner_\\Features\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T19:29:06.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddTourViewModel.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
+              "RelativeToolTip": "Tourplanner_\\Features\\AddTour\\AddTourViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T18:51:40.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddTourView.xaml",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
+              "RelativeToolTip": "Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-03T15:53:01.361Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 21,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Tourplanner_\\MainWindow.xaml",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\MainWindow.xaml",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\MainWindow.xaml",
               "RelativeToolTip": "Tourplanner_\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-09-01T17:33:35.439Z"
@@ -220,21 +214,20 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\App.xaml",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\App.xaml",
               "RelativeDocumentMoniker": "Tourplanner_\\App.xaml",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\App.xaml",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\App.xaml",
               "RelativeToolTip": "Tourplanner_\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-01T18:31:25.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T18:31:25.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TourRepository.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\TourRepository.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\TourRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\TourRepository.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\TourRepository.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\TourRepository.cs",
               "RelativeToolTip": "Tourplanner.DAL\\TourRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -244,9 +237,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\App.xaml.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\App.xaml.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\App.xaml.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\App.xaml.cs",
               "RelativeToolTip": "Tourplanner_\\App.xaml.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAYwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -256,9 +249,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\MainWindow.xaml.cs",
               "RelativeToolTip": "Tourplanner_\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -268,105 +261,53 @@
         },
         {
           "DockedWidth": 201,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddLogView.xaml",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
-              "RelativeToolTip": "Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-03T16:06:43.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IInputValidator.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
-              "RelativeToolTip": "Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T17:22:04.694Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "TourAttributeCalculator.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\TourAttributeCalculator.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourAttributeCalculator.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\TourAttributeCalculator.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\TourAttributeCalculator.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourAttributeCalculator.cs",
               "RelativeToolTip": "Tourplanner.BL\\TourAttributeCalculator.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAqwDsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-03T18:27:15.856Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AddLogViewModel.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
               "RelativeToolTip": "Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T16:06:55.856Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITourService.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\ITourService.cs",
-              "RelativeDocumentMoniker": "Tourplanner.BL\\ITourService.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\ITourService.cs",
-              "RelativeToolTip": "Tourplanner.BL\\ITourService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:27:46.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TourLogService.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\TourLogService.cs",
-              "RelativeDocumentMoniker": "Tourplanner.BL\\TourLogService.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\TourLogService.cs",
-              "RelativeToolTip": "Tourplanner.BL\\TourLogService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T16:20:27.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T16:06:55.856Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TourService.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\TourService.cs",
-              "RelativeDocumentMoniker": "Tourplanner.BL\\TourService.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.BL\\TourService.cs",
-              "RelativeToolTip": "Tourplanner.BL\\TourService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:28:17.321Z",
+              "Title": "Tourplanner.DAL.csproj",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj",
+              "RelativeDocumentMoniker": "Tourplanner.DAL\\Tourplanner.DAL.csproj",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj",
+              "RelativeToolTip": "Tourplanner.DAL\\Tourplanner.DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-01T20:09:06.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\appsettings.json",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\appsettings.json",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\appsettings.json",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\appsettings.json",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\appsettings.json",
               "RelativeToolTip": "Tourplanner.DAL\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -375,11 +316,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
+              "Title": "AddLogView.xaml",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
+              "RelativeToolTip": "Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-03T16:06:43.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IInputValidator.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
+              "RelativeToolTip": "Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T17:22:04.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITourService.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\ITourService.cs",
+              "RelativeDocumentMoniker": "Tourplanner.BL\\ITourService.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\ITourService.cs",
+              "RelativeToolTip": "Tourplanner.BL\\ITourService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T20:27:46.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TourLogService.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourLogService.cs",
+              "RelativeDocumentMoniker": "Tourplanner.BL\\TourLogService.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourLogService.cs",
+              "RelativeToolTip": "Tourplanner.BL\\TourLogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T16:20:27.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TourService.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourService.cs",
+              "RelativeDocumentMoniker": "Tourplanner.BL\\TourService.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourService.cs",
+              "RelativeToolTip": "Tourplanner.BL\\TourService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T20:28:17.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "TourViewModel.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\TourView\\TourViewModel.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
               "RelativeToolTip": "Tourplanner_\\Features\\TourView\\TourViewModel.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -388,11 +388,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Tourplanner.Shared.csproj",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Tourplanner.Shared.csproj",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
               "RelativeToolTip": "Tourplanner.Shared\\Tourplanner.Shared.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -400,11 +400,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "InputValidator.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\InputValidator.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\InputValidator.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\Validierung\\InputValidator.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\InputValidator.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\InputValidator.cs",
               "RelativeToolTip": "Tourplanner_\\Features\\Validierung\\InputValidator.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -412,11 +412,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Tour.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tour.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tour.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Tour.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tour.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tour.cs",
               "RelativeToolTip": "Tourplanner.Shared\\Tour.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -424,11 +424,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ITourLogRepository.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\ITourLogRepository.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\ITourLogRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\ITourLogRepository.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\ITourLogRepository.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\ITourLogRepository.cs",
               "RelativeToolTip": "Tourplanner.DAL\\ITourLogRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -436,11 +436,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\AppDbContext.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\AppDbContext.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContext.cs",
               "RelativeToolTip": "Tourplanner.DAL\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,23 +448,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Tourplanner.DAL.csproj",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj",
-              "RelativeDocumentMoniker": "Tourplanner.DAL\\Tourplanner.DAL.csproj",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj",
-              "RelativeToolTip": "Tourplanner.DAL\\Tourplanner.DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T20:09:06.473Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 25,
               "Title": "TourLogRepository.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\TourLogRepository.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\TourLogRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\TourLogRepository.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\TourLogRepository.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\TourLogRepository.cs",
               "RelativeToolTip": "Tourplanner.DAL\\TourLogRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwB8AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -474,9 +462,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "TourLog.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\TourLog.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\TourLog.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\TourLog.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\TourLog.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\TourLog.cs",
               "RelativeToolTip": "Tourplanner.Shared\\TourLog.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -486,9 +474,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "ITourRepository.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\ITourRepository.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\ITourRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\ITourRepository.cs",
-              "ToolTip": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.DAL\\ITourRepository.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\ITourRepository.cs",
               "RelativeToolTip": "Tourplanner.DAL\\ITourRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
