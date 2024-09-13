@@ -2,10 +2,14 @@
 using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Media.Imaging;
 using Tourplanner.BL;
+using Tourplanner.BL.MapService;
 using Tourplanner.Shared;
+using Tourplanner.Shared.Logging;
 using Tourplanner_.Features.AddLog;
 using Tourplanner_.Features.AddTour;
+using Tourplanner_.Features.Search;
 using Tourplanner_.Features.Validierung;
 
 namespace Tourplanner_.Features.TourView
@@ -26,6 +30,7 @@ namespace Tourplanner_.Features.TourView
                 OnPropertyChanged(nameof(Popularity));
                 OnPropertyChanged(nameof(ChildFriendliness));
                 LoadTourLogsAsync();
+                GenerateRouteMap();
             }
         }
 
@@ -36,6 +41,57 @@ namespace Tourplanner_.Features.TourView
             {
                 _selectedTourLog = value;
                 OnPropertyChanged(nameof(SelectedTourLog));
+            }
+        }
+
+        public BitmapImage? RouteMapImage
+        {
+            get => routeMapImage;
+            set
+            {
+                routeMapImage = value;
+                OnPropertyChanged(nameof(RouteMapImage));
+            }
+        }
+
+        public string? RouteMapImagePath
+        {
+            get => routeMapImagePath;
+            set
+            {
+                routeMapImagePath = value;
+                OnPropertyChanged(nameof(RouteMapImagePath));
+            }
+        }
+
+        public double? RouteTime
+        {
+            get => routeTime;
+            set
+            {
+                routeTime = value;
+                OnPropertyChanged(nameof(RouteTime));
+            }
+        }
+
+        public double? RouteDistance
+        {
+            get => routeDistance;
+            set
+            {
+                routeDistance = value;
+                OnPropertyChanged(nameof(RouteDistance));
+            }
+        }
+
+        public bool ShowFavoritesOnly
+        {
+            get => showFavoritesOnly;
+            set
+            {
+                showFavoritesOnly = value;
+                OnPropertyChanged(nameof(ShowFavoritesOnly));
+                FilterTours();
             }
         }
 
@@ -51,13 +107,37 @@ namespace Tourplanner_.Features.TourView
         public ICommand? EditTourLogCommand { get; set; }
         public ICommand? DeleteTourLogCommand { get; set; }
 
-        public TourViewModel(IServiceProvider serviceProvider, ITourService tourService, ITourLogService tourLogService, IInputValidator inputValidator, TourAttributeCalculator tourAttributeCalculator)
+        public ICommand SearchCommand { get; set; }
+        public ICommand ExportCommand { get; set; }
+        public ICommand ImportCommand { get; set; }
+        public ICommand TourPdfCommand { get; set; }
+        public ICommand SummarizePdfCommand { get; set; }
+
+        public TourViewModel(
+            IServiceProvider serviceProvider,
+            ITourService tourService,
+            ITourLogService tourLogService,
+            IInputValidator inputValidator,
+            TourAttributeCalculator tourAttributeCalculator,
+            IExportService exportService,
+            IImportService importService,
+            MapService mapService,
+            IPdfReportService pdfReportService,
+            ILoggerFactory loggerFactory)
         {
             _serviceProvider = serviceProvider;
             _tourService = tourService;
             _tourLogService = tourLogService;
             _inputValidator = inputValidator;
             _tourAttributeCalculator = tourAttributeCalculator;
+            _exportService = exportService;
+            _importService = importService;
+            _mapService = mapService;
+            _pdfReportService = pdfReportService;
+
+            logger = loggerFactory.CreateLogger<TourViewModel>();
+
+            _alltours = new ObservableCollection<Tour>();
 
             AddTourCommand = new RelayCommand(_ => AddTour());
             EditTourCommand = new RelayCommand(_ => EditTour(), _ => SelectedTour != null);
@@ -67,7 +147,143 @@ namespace Tourplanner_.Features.TourView
             EditTourLogCommand = new RelayCommand(_ => EditTourLog(), _ => SelectedTourLog != null);
             DeleteTourLogCommand = new RelayCommand(async _ => await DeleteTourLog(), _ => SelectedTourLog != null);
 
+            SearchCommand = new RelayCommand(async p => await PerformSearch(p));
+            ExportCommand = new RelayCommand(async _ => await ExportTourData(), _ => SelectedTour != null);
+            ImportCommand = new RelayCommand(async _ => await ImportTourData());
+            TourPdfCommand = new RelayCommand(async _ => await GenerateTourPdf(), _ => SelectedTour != null);
+            SummarizePdfCommand = new RelayCommand(async _ => await GenerateSummaryPdf(), _ => Tours?.Count > 0);
+
             LoadTours();
+        }
+
+        private void FilterTours()
+        {
+            if(ShowFavoritesOnly)
+            {
+                Tours = new ObservableCollection<Tour>(_alltours.Where(t => t.IsFavorite));
+            }
+            else
+            {
+                Tours = new ObservableCollection<Tour>(_alltours);
+            }
+
+            OnPropertyChanged(nameof(Tours));
+        }
+
+        private async Task GenerateSummaryPdf()
+        {
+            try
+            {
+                await _pdfReportService.GenerateSummaryReport(Tours);
+                MessageBox.Show("PDF erfolgreich erstellt", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                logger.Info("PDF erfolgreich erstellt");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Fehler beim Erstellen des PDFs", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Erstellen des PDFs");
+            }
+        }
+
+        private async Task GenerateTourPdf()
+        {
+            try
+            {
+                SelectedTour.ChildFriendliness = ChildFriendliness;
+                SelectedTour.Popularity = Popularity;
+
+                await _pdfReportService.GenerateTourReport(SelectedTour);
+
+                MessageBox.Show("PDF erfolgreich erstellt", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                logger.Info("PDF erfolgreich erstellt");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Fehler beim Erstellen des PDFs", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Erstellen des PDFs");
+            }
+        }
+
+        private async Task ImportTourData()
+        {
+            try
+            {
+                var result = await _importService.ImportTourFromJsonAsync();
+
+                if (result != null)
+                {
+                    Tours?.Add(result);
+                    await _tourService.AddTourAsync(result);
+
+                    SelectedTour = result;
+                    MessageBox.Show("Tourdaten erfolgreich importiert", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    logger.Info("Tourdaten erfolgreich importiert");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Fehler beim Importieren der Tourdaten", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Importieren der Tourdaten");
+            }
+        }
+
+        private async Task ExportTourData()
+        {
+            try
+            {
+                SelectedTour.ChildFriendliness = ChildFriendliness;
+                SelectedTour.Popularity = Popularity;
+
+                var result = await _exportService.ExportTourToJsonAsync(SelectedTour);
+
+                if (result) 
+                {
+                    MessageBox.Show("Tourdaten erfolgreich exportiert", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    logger.Info("Tourdaten erfolgreich exportiert");
+                }
+                else
+                {
+                    MessageBox.Show("Export der Tourdaten abgebrochen", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    logger.Error("Export der Tourdaten abgebrochen");
+                }
+
+                SelectedTour = null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Fehler beim Exportieren der Tourdaten", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Exportieren der Tourdaten");
+            }
+        }
+
+        private async Task PerformSearch(object p)
+        {
+            var search = p as string;
+
+            if (string.IsNullOrWhiteSpace(search))
+            {
+                return;
+            }
+
+            var searchViewModel = _serviceProvider.GetRequiredService<SearchViewModel>();
+            var searchView = _serviceProvider.GetRequiredService<SearchView>();
+
+            if (searchViewModel != null && searchView != null)
+            {
+                searchView.DataContext = searchViewModel;
+
+                await searchViewModel.Search(search, Tours);
+
+                if (searchViewModel.SearchResults.Count == 0)
+                {
+                    MessageBox.Show("Keine Ergebnisse gefunden", "Info", MessageBoxButton.OK, MessageBoxImage.Information);
+                    logger.Info("Keine Ergebnisse bei der Suche gefunden");
+                    return;
+                }
+
+                searchView.ShowDialog();
+                logger.Info("Erfolgreiche Suche durchgeführt");
+            }
         }
 
         private async void LoadTours()
@@ -75,15 +291,20 @@ namespace Tourplanner_.Features.TourView
             try
             {
                 var tours = await _tourService.GetAllToursAsync();
-                Tours?.Clear();
+
+                _alltours.Clear();
+
                 foreach (var tour in tours)
                 {
-                    Tours?.Add(tour);
+                    _alltours.Add(tour);
                 }
+
+                FilterTours();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Laden der Touren", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Laden der Touren");
             }
         }
         private async Task LoadTourLogsAsync()
@@ -105,6 +326,7 @@ namespace Tourplanner_.Features.TourView
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Laden der TourLogs", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Laden der TourLogs");
             }
         }
 
@@ -119,11 +341,13 @@ namespace Tourplanner_.Features.TourView
                     await _tourLogService.DeleteTourLogAsync(SelectedTourLog.Id);
                     TourLogs?.Remove(SelectedTourLog);
                     SelectedTourLog = null;
+                    logger.Info("TourLog erfolgreich gelöscht");
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Löschen eines TourLogs", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Löschen eines TourLogs");
             }
         }
 
@@ -159,12 +383,15 @@ namespace Tourplanner_.Features.TourView
                             if (!result)
                             {
                                 MessageBox.Show(error, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                                logger.Error("Fehler beim Bearbeiten eines TourLogs");
                                 return;
                             }
 
                             await _tourLogService.UpdateTourLogAsync(SelectedTourLog);
 
                             await LoadTourLogsAsync();
+
+                            logger.Info("TourLog erfolgreich bearbeitet");
                         }
 
                         editTourLogView.Close();
@@ -177,6 +404,7 @@ namespace Tourplanner_.Features.TourView
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Bearbeiten eines TourLogs", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Bearbeiten eines TourLogs");
             }
         }
 
@@ -210,10 +438,13 @@ namespace Tourplanner_.Features.TourView
                             if (!result)
                             {
                                 MessageBox.Show(error, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                                logger.Error("Fehler beim Hinzufügen eines TourLogs");
                                 return;
                             }
 
                             await _tourLogService.AddTourLogAsync(tourLog);
+
+                            logger.Info("TourLog erfolgreich hinzugefügt");
 
                             TourLogs?.Add(tourLog);
                             addTourLogView.Close();
@@ -226,6 +457,7 @@ namespace Tourplanner_.Features.TourView
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Hinzufügen eines TourLogs", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Hinzufügen eines TourLogs");
             }
         }
 
@@ -241,11 +473,14 @@ namespace Tourplanner_.Features.TourView
                     Tours?.Remove(SelectedTour);
                     SelectedTour = null;
                     TourLogs?.Clear();
+
+                    logger.Info("Tour erfolgreich gelöscht");
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Löschen einer Tour", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Löschen einer Tour");
             }
         }
 
@@ -281,11 +516,12 @@ namespace Tourplanner_.Features.TourView
                             if (!result)
                             {
                                 MessageBox.Show(error, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                                logger.Error("Fehler beim Bearbeiten einer Tour");
                                 return;
                             }
 
                             await _tourService.UpdateTourAsync(SelectedTour);
-
+                            logger.Info("Tour erfolgreich bearbeitet");
                             LoadTours();
                         }
 
@@ -298,6 +534,7 @@ namespace Tourplanner_.Features.TourView
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Bearbeiten einer Tour", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Bearbeiten einer Tour");
             }
         }
 
@@ -328,10 +565,13 @@ namespace Tourplanner_.Features.TourView
                         if (!result)
                         {
                             MessageBox.Show(error, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                            logger.Error("Fehler beim Erstellen einer Tour");
                             return;
                         }
 
                         await _tourService.AddTourAsync(tour);
+                        
+                        logger.Info("Tour erfolgreich hinzugefügt");
 
                         Tours?.Add(tour);
                         SelectedTour = tour;
@@ -344,15 +584,59 @@ namespace Tourplanner_.Features.TourView
             catch (Exception ex)
             {
                 MessageBox.Show("Fehler beim Erstellen einer Tour", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                logger.Error("Fehler beim Erstellen einer Tour");
             }
         }
 
+        private async Task GenerateRouteMap()
+        {
+            if (SelectedTour != null)
+            {
+                var mapInfo = await _mapService.GenerateRouteMapAsync(SelectedTour);
+
+                if (mapInfo != null)
+                {
+                    RouteMapImage = ConvertPathToImage(mapInfo.MapImagePath);
+                    RouteMapImagePath = mapInfo.MapImagePath;
+                    RouteTime = mapInfo.Time;
+                    RouteDistance = mapInfo.Distance;
+
+                    OnPropertyChanged(nameof(RouteMapImage));
+                    OnPropertyChanged(nameof(RouteMapImagePath));
+                    OnPropertyChanged(nameof(RouteTime));
+                    OnPropertyChanged(nameof(RouteDistance));
+                }
+            }
+        }
+
+        private BitmapImage ConvertPathToImage(string path)
+        {
+            var image = new BitmapImage();
+            image.BeginInit();
+            image.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
+            image.CacheOption = BitmapCacheOption.OnLoad;
+            image.UriSource = new Uri(path);
+            image.EndInit();
+            return image;
+        }
+
+        private ObservableCollection<Tour> _alltours;
+        private bool showFavoritesOnly;
+        private BitmapImage? routeMapImage;
+        private string? routeMapImagePath;
+        private double? routeTime;
+        private double? routeDistance;
         private TourLog? _selectedTourLog;
         private Tour? _selectedTour;
         private readonly ITourService _tourService;
         private readonly ITourLogService _tourLogService;
         private readonly IServiceProvider _serviceProvider;
         private readonly IInputValidator _inputValidator;
+        private readonly IExportService _exportService;
+        private readonly IImportService _importService;
         private readonly TourAttributeCalculator _tourAttributeCalculator;
+        private readonly MapService _mapService;
+        private readonly IPdfReportService _pdfReportService;
+        private readonly ILogger logger;
     }
 }

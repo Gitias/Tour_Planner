@@ -39,6 +39,9 @@ namespace Tourplanner.DAL.Migrations
                     b.Property<string>("From")
                         .HasColumnType("text");
 
+                    b.Property<bool>("IsFavorite")
+                        .HasColumnType("boolean");
+
                     b.Property<string>("Name")
                         .HasColumnType("text");
 

@@ -10,6 +10,7 @@
         public string? TransportType { get; set; }
         public string? ChildFriendliness { get; set; }
         public string? Popularity { get; set; }
+        public bool IsFavorite { get; set; }
         public virtual ICollection<TourLog> TourLogs { get; set; }
     }
 }

@@ -6,6 +6,10 @@ Nugget packet
 --> Npgsql.EntityFrameworkCore.PostgreSQL
 --> Microsoft.Extensions.Configuration.Json
 --> Microsoft.EntityFrameworkCore.Design
+-->itext7
+-->itext7.bouncy-castle-adapter (Erstellen von pdfs und schreiben)
+--> log4net (Erstellen von log ( nur in shared)
+--> Microsoft.Extensions.Configuration (für UIL und Shared)
 UNBEDINGT ALLE AUF SELBER VERSION
 Build -> clean solution
 
@@ -19,7 +23,8 @@ Database Connection String:
 }
 
 appsettings.json 
--> Properties = copy id new (Ganz Wichtig)
+-> Properties = copy if new (Ganz Wichtig)
+bei config file auch!
 
 O/R Mapper Commands
 https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
@@ -28,5 +33,6 @@ Dendency Injections --> das was am anfang erstellt wird damit nur "einmal instan
 
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+
 
 

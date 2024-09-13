@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner_\App.xaml
-41857810854
+5479285220
 
-16-382121606
-2211993635212
-Features\AddLog\AddLogView.xaml;Features\AddTour\AddTourView.xaml;Features\TourView\TourView.xaml;MainWindow.xaml;
+18-1000223468
+240-792117623
+Features\AddLog\AddLogView.xaml;Features\AddTour\AddTourView.xaml;Features\Search\SearchView.xaml;Features\TourView\TourView.xaml;MainWindow.xaml;
 
 True
 

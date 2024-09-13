@@ -9,16 +9,8 @@ namespace Tourplanner.DAL
         public DbSet<Tour> Tours { get; set; }
         public DbSet<TourLog> TourLogs { get; set; }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
-            IConfigurationRoot configuration = new ConfigurationBuilder()
-                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-                .AddJsonFile("appsettings.json")
-                .Build();
-
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
-
-            optionsBuilder.UseNpgsql(connectionString);
         }
     }
 }

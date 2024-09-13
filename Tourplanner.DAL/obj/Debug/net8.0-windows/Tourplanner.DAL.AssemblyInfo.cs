@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tourplanner.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ab2e221bdf819728a9519216aa851ffb947f72c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b34d125cd6f8f0e226fec68cd7a86db05bb5aa6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tourplanner.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tourplanner.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

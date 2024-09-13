@@ -13,6 +13,9 @@
     <Compile Update="Features\AddTour\AddTourView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Features\Search\SearchView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Features\TourView\TourView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -22,6 +25,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Features\AddTour\AddTourView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Features\Search\SearchView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Features\TourView\TourView.xaml">

@@ -19,14 +19,13 @@
                     return "Not Popular";
                 case < 6:
                     return "Popular";
-                case < 10:
+                case >= 6:
                     return "Very Popular";
                 default:
                     return "Unknown";
             }
         }
 
-        //TODO: Implement new logic for child friendliness
         public string CalculateChildFriendliness(Tour tour)
         {
             if (tour.TourLogs == null || tour.TourLogs.Count == 0)
@@ -52,8 +51,7 @@
             {
                 < 3 => "Very Child Friendly",
                 < 6 => "Child Friendly",
-                <= 8 => "Not Child Friendly",
-                > 8 => "ABSOLUTELY NOT FOR KIDS",
+                >= 6 => "Not Child Friendly",
                 _ => "Unknown"
             }; 
         }

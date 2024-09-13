@@ -45,7 +45,7 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <StackPanel Orientation="Horizontal"
+            <StackPanel Orientation="Vertical"
                     Grid.Row="0"
                     Grid.Column="0">
 
@@ -63,6 +63,10 @@
                     Width="60"
                     Margin="5"
                     Command="{Binding DeleteTourCommand}" />
+
+                <CheckBox Content="Show Favorites"
+                            IsChecked="{Binding ShowFavoritesOnly}"
+                            Margin="5" />
             </StackPanel>
 
             <ListView Grid.Row="1"
@@ -104,11 +108,25 @@
 
                         <TextBlock Text="Popularity:" FontWeight="Bold" />
                         <TextBlock Text="{Binding Popularity}" />
+
+                        <CheckBox Content="Favorite"
+                                  IsEnabled="{Binding SelectedTour}"
+                                  IsChecked="{Binding SelectedTour.IsFavorite}"
+                                  Margin="0,10,0,0" />
                     </StackPanel>
 
                 </TabItem>
 
                 <TabItem Header="Route">
+                    <StackPanel Margin="10" Orientation="Vertical">
+                        <TextBlock Text="Distance(in m)" FontSize="18" FontWeight="Bold" />
+                        <TextBlock Text="{Binding RouteDistance}" />
+
+                        <TextBlock Text="Time(in sec)" FontSize="18" FontWeight="Bold" />
+                        <TextBlock Text="{Binding RouteTime}" />
+
+                        <Image Source="{Binding RouteMapImage}" Stretch="Fill" />
+                    </StackPanel>
 
                 </TabItem>
 

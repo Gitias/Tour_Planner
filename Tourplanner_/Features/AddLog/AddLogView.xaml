@@ -49,7 +49,7 @@
         </ComboBox>
 
         <Label Grid.Row="6"
-               Content="Total Distance (in km):" />
+               Content="Total Distance:" />
 
         <TextBox Grid.Row="7"
                  Text="{Binding Distance}" />
