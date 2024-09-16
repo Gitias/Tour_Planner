@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\tourview\\tourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.shared\\tourlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7028AFB-6DE5-4225-B48A-92AD149306FC}|Tourplanner.Shared\\Tourplanner.Shared.csproj|solutionrelative:tourplanner.shared\\tourlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -21,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\addtour\\addtourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\addtour\\addtourview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2E740BC2-7521-419D-A0DC-A0BDD44918C3}|Tourplanner_\\Tourplanner_.csproj|solutionrelative:tourplanner_\\features\\tourview\\tourviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}|Tourplanner.DAL\\Tourplanner.DAL.csproj|c:\\tobias\\fh\\semester 4\\swen\\tour_planner\\tourplanner.dal\\itourlogrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -162,32 +170,32 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Log4NetFactory.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
-              "RelativeDocumentMoniker": "Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
-              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
-              "RelativeToolTip": "Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:35:34.599Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Tourplanner.DAL\\AppDbContextFactory.cs",
-              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContextFactory.cs",
-              "RelativeToolTip": "Tourplanner.DAL\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T19:20:17.671Z",
+              "DocumentIndex": 1,
+              "Title": "TourView.xaml",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourView.xaml",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\TourView\\TourView.xaml",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourView.xaml",
+              "RelativeToolTip": "Tourplanner_\\Features\\TourView\\TourView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-16T19:08:36.909Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 2,
+              "Title": "TourLog.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\TourLog.cs",
+              "RelativeDocumentMoniker": "Tourplanner.Shared\\TourLog.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\TourLog.cs",
+              "RelativeToolTip": "Tourplanner.Shared\\TourLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:08:28.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "logfile.log",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\bin\\Debug\\net8.0-windows\\logfile.log",
               "RelativeDocumentMoniker": "Tourplanner_\\bin\\Debug\\net8.0-windows\\logfile.log",
@@ -199,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TourService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\TourService.cs",
@@ -207,12 +215,11 @@
               "RelativeToolTip": "Tourplanner.BL\\TourService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:28:17.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T20:28:17.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ITourLogRepository.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\ITourLogRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\ITourLogRepository.cs",
@@ -220,12 +227,11 @@
               "RelativeToolTip": "Tourplanner.DAL\\ITourLogRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-03T16:21:01.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-03T16:21:01.433Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ITourRepository.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\ITourRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\ITourRepository.cs",
@@ -233,12 +239,11 @@
               "RelativeToolTip": "Tourplanner.DAL\\ITourRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T20:19:09.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T20:19:09.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "log4net.conf",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\log4net.conf",
               "RelativeDocumentMoniker": "Tourplanner_\\log4net.conf",
@@ -246,12 +251,36 @@
               "RelativeToolTip": "Tourplanner_\\log4net.conf",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-09-11T18:31:43.249Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T18:31:43.249Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TourViewModel.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
+              "RelativeDocumentMoniker": "Tourplanner_\\Features\\TourView\\TourViewModel.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
+              "RelativeToolTip": "Tourplanner_\\Features\\TourView\\TourViewModel.cs",
+              "ViewState": "AgIAALsAAAAAAAAAAAAwwM4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T17:55:42.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Tourplanner.DAL\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContextFactory.cs",
+              "RelativeToolTip": "Tourplanner.DAL\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T19:20:17.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\appsettings.json",
               "RelativeDocumentMoniker": "Tourplanner_\\appsettings.json",
@@ -259,12 +288,23 @@
               "RelativeToolTip": "Tourplanner_\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-07T18:06:53.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-07T18:06:53.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 14,
+              "Title": "Log4NetFactory.cs",
+              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
+              "RelativeDocumentMoniker": "Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
+              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
+              "RelativeToolTip": "Tourplanner.Shared\\Logging\\Log4NetFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T18:35:34.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Log4NetLogger.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\Log4NetLogger.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Logging\\Log4NetLogger.cs",
@@ -276,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\appsettings.json",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\appsettings.json",
@@ -284,37 +324,22 @@
               "RelativeToolTip": "Tourplanner.DAL\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-11T19:26:29.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T19:26:29.558Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TourViewModel.cs",
-              "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
-              "RelativeDocumentMoniker": "Tourplanner_\\Features\\TourView\\TourViewModel.cs",
-              "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\TourView\\TourViewModel.cs",
-              "RelativeToolTip": "Tourplanner_\\Features\\TourView\\TourViewModel.cs",
-              "ViewState": "AgIAAFkCAAAAAAAAAAAIwHYCAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-01T17:55:42.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AddTourView.xaml",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
               "ToolTip": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
               "RelativeToolTip": "Tourplanner_\\Features\\AddTour\\AddTourView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-13T17:32:01.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-13T17:32:01.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Tourplanner.DAL.csproj",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\Tourplanner.DAL.csproj",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\Tourplanner.DAL.csproj",
@@ -322,12 +347,11 @@
               "RelativeToolTip": "Tourplanner.DAL\\Tourplanner.DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T20:09:06.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T20:09:06.473Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ILogger.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\ILogger.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Logging\\ILogger.cs",
@@ -339,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\App.xaml.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\App.xaml.cs",
@@ -347,12 +371,11 @@
               "RelativeToolTip": "Tourplanner_\\App.xaml.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAcwAcAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T18:11:26.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T18:11:26.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AddLogViewModel.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddLog\\AddLogViewModel.cs",
@@ -364,7 +387,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "Tourplanner.Shared.csproj",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Tourplanner.Shared.csproj",
@@ -372,12 +395,11 @@
               "RelativeToolTip": "Tourplanner.Shared\\Tourplanner.Shared.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-01T20:38:06.949Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-01T20:38:06.949Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "Tour.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tour.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Tour.cs",
@@ -389,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\AppDbContext.cs",
@@ -401,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ILoggerFactory.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Logging\\ILoggerFactory.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\Logging\\ILoggerFactory.cs",
@@ -413,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "DirectionsService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\MapService\\DirectionsService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\MapService\\DirectionsService.cs",
@@ -425,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "TourLogService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\TourLogService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\TourLogService.cs",
@@ -437,7 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "SearchView.xaml",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Search\\SearchView.xaml",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\Search\\SearchView.xaml",
@@ -448,7 +470,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "IImportService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\IImportService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\IImportService.cs",
@@ -460,7 +482,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "PdfReportService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\PdfReportService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\PdfReportService.cs",
@@ -472,7 +494,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MapService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\MapService\\MapService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\MapService\\MapService.cs",
@@ -484,7 +506,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "TourMapInfo.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\TourMapInfo.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\TourMapInfo.cs",
@@ -496,7 +518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AddLogView.xaml",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\AddLog\\AddLogView.xaml",
@@ -507,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "DirectionsResult.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\DirectionsResult.cs",
               "RelativeDocumentMoniker": "Tourplanner.Shared\\DirectionsResult.cs",
@@ -519,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "TileService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\MapService\\TileService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\MapService\\TileService.cs",
@@ -531,7 +553,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "SearchViewModel.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Search\\SearchViewModel.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\Search\\SearchViewModel.cs",
@@ -543,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "IExportService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\IExportService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\IExportService.cs",
@@ -555,7 +577,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "ImportService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\ImportService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\ImportService.cs",
@@ -567,7 +589,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "ITourService.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.BL\\ITourService.cs",
               "RelativeDocumentMoniker": "Tourplanner.BL\\ITourService.cs",
@@ -579,7 +601,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "TourLogRepository.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.DAL\\TourLogRepository.cs",
               "RelativeDocumentMoniker": "Tourplanner.DAL\\TourLogRepository.cs",
@@ -591,7 +613,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "IInputValidator.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\Validierung\\IInputValidator.cs",
@@ -603,7 +625,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "InputValidator.cs",
               "DocumentMoniker": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner_\\Features\\Validierung\\InputValidator.cs",
               "RelativeDocumentMoniker": "Tourplanner_\\Features\\Validierung\\InputValidator.cs",

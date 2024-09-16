@@ -61,7 +61,7 @@ namespace Tourplanner_.Features.TourView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tourplanner_;component/features/tourview/tourview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tourplanner_;V1.0.0.0;component/features/tourview/tourview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Features\TourView\TourView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
