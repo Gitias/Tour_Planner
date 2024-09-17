@@ -64,10 +64,10 @@ namespace Tourplanner_
             services.AddSingleton<IPdfReportService, PdfReportService>();
             services.AddSingleton<ILogger, Log4NetLogger>();
             services.AddSingleton<ILoggerFactory, Log4NetFactory>();
+            services.AddSingleton<IMapService, MapService>();
             services.AddSingleton<TourAttributeCalculator>();
             services.AddSingleton<DirectionsService>();
             services.AddSingleton<GeocodeService>();
-            services.AddSingleton<MapService>();
             services.AddSingleton<TileService>();
 
             services.AddTransient<TourView>();

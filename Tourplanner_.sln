@@ -5,11 +5,13 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tourplanner_", "Tourplanner_\Tourplanner_.csproj", "{2E740BC2-7521-419D-A0DC-A0BDD44918C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourplanner.BL", "Tourplanner.BL\Tourplanner.BL.csproj", "{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tourplanner.BL", "Tourplanner.BL\Tourplanner.BL.csproj", "{5A53FCF8-D13C-4D5E-89A8-BCB2BA21F4D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourplanner.DAL", "Tourplanner.DAL\Tourplanner.DAL.csproj", "{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tourplanner.DAL", "Tourplanner.DAL\Tourplanner.DAL.csproj", "{3F98C643-CD83-4AB7-882E-F2EF9A903BC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourplanner.Shared", "Tourplanner.Shared\Tourplanner.Shared.csproj", "{E7028AFB-6DE5-4225-B48A-92AD149306FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tourplanner.Shared", "Tourplanner.Shared\Tourplanner.Shared.csproj", "{E7028AFB-6DE5-4225-B48A-92AD149306FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tourplanner.Testing", "Tourplanner.Testing\Tourplanner.Testing.csproj", "{DDE93F7C-B1DE-4CF2-842B-AE8AF56ECD5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{E7028AFB-6DE5-4225-B48A-92AD149306FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7028AFB-6DE5-4225-B48A-92AD149306FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E7028AFB-6DE5-4225-B48A-92AD149306FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE93F7C-B1DE-4CF2-842B-AE8AF56ECD5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE93F7C-B1DE-4CF2-842B-AE8AF56ECD5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE93F7C-B1DE-4CF2-842B-AE8AF56ECD5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE93F7C-B1DE-4CF2-842B-AE8AF56ECD5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

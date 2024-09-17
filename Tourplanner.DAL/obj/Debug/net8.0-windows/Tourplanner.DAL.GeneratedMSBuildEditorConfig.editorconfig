@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Tourplanner.DAL
-build_property.ProjectDir = C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.DAL\
+build_property.ProjectDir = C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

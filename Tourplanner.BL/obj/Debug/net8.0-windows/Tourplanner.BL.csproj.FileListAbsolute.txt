@@ -16,22 +16,22 @@ C:\Users\musta\source\repos\Tourplanner_\Tourplanner.BL\obj\Debug\net8.0-windows
 C:\Users\musta\source\repos\Tourplanner_\Tourplanner.BL\obj\Debug\net8.0-windows\refint\Tourplanner.BL.dll
 C:\Users\musta\source\repos\Tourplanner_\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.pdb
 C:\Users\musta\source\repos\Tourplanner_\Tourplanner.BL\obj\Debug\net8.0-windows\ref\Tourplanner.BL.dll
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\appsettings.json
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.BL.deps.json
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.BL.dll
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.BL.pdb
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.DAL.dll
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.Shared.dll
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.DAL.pdb
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.Shared.pdb
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.csproj.AssemblyReference.cache
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.GeneratedMSBuildEditorConfig.editorconfig
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.AssemblyInfoInputs.cache
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.AssemblyInfo.cs
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.csproj.CoreCompileInputs.cache
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.sourcelink.json
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplan.9DCB3476.Up2Date
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.dll
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\refint\Tourplanner.BL.dll
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.pdb
-C:\Tobias\FH\Semester 4\Swen\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\ref\Tourplanner.BL.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\appsettings.json
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.BL.deps.json
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.BL.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.BL.pdb
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.DAL.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.Shared.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.DAL.pdb
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\bin\Debug\net8.0-windows\Tourplanner.Shared.pdb
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.csproj.AssemblyReference.cache
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.AssemblyInfoInputs.cache
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.AssemblyInfo.cs
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.csproj.CoreCompileInputs.cache
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.sourcelink.json
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplan.9DCB3476.Up2Date
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\refint\Tourplanner.BL.dll
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\Tourplanner.BL.pdb
+C:\Tobias\FH Technikum\Swen4\Tour_Planner\Tourplanner.BL\obj\Debug\net8.0-windows\ref\Tourplanner.BL.dll

@@ -1,15 +1,4 @@
 2024-09-11 21:35:44,646 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt
-2024-09-13 19:43:28,217 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Tour erfolgreich hinzugefügt
-2024-09-13 19:46:02,056 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Tour erfolgreich hinzugefügt
-2024-09-13 19:47:59,818 [1] INFO Tourplanner_.Features.TourView.TourViewModel - TourLog erfolgreich hinzugefügt
-2024-09-13 19:48:34,505 [1] INFO Tourplanner_.Features.TourView.TourViewModel - TourLog erfolgreich hinzugefügt
-2024-09-13 19:48:59,879 [1] INFO Tourplanner_.Features.TourView.TourViewModel - TourLog erfolgreich hinzugefügt
-2024-09-13 19:49:23,600 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Erfolgreiche Suche durchgeführt
-2024-09-13 19:49:37,114 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Erfolgreiche Suche durchgeführt
-2024-09-13 19:49:49,332 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Keine Ergebnisse bei der Suche gefunden
-2024-09-13 19:49:57,309 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Erfolgreiche Suche durchgeführt
-2024-09-13 19:50:06,649 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Erfolgreiche Suche durchgeführt
-2024-09-13 19:50:32,691 [1] INFO Tourplanner_.Features.TourView.TourViewModel - Tourdaten erfolgreich exportiert
-2024-09-13 19:50:51,073 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt
-2024-09-13 19:50:56,970 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt
-2024-09-13 19:57:06,214 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt
+2024-09-17 08:52:11,479 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt
+2024-09-17 08:54:43,568 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt
+2024-09-17 08:56:25,479 [1] INFO Tourplanner_.Features.TourView.TourViewModel - PDF erfolgreich erstellt

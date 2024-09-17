@@ -5,7 +5,7 @@ using System.Drawing;
 using System.IO;
 using Tourplanner.Shared;
 
-public class MapService
+public class MapService : IMapService
 {
     public MapService(
         GeocodeService geocodeService,
@@ -20,7 +20,7 @@ public class MapService
             ?? throw new ArgumentNullException(nameof(configuration));
     }
 
-    public async Task<TourMapInfo?> GenerateRouteMapAsync(Tour tour, int zoom = 17)
+    public async Task<TourMapInfo?> GenerateRouteMapAsync(Tour tour, int zoom)
     {
         try
         {

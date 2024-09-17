@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj": {}
+    "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj": {
+    "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
+        "projectUniqueName": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
         "projectName": "Tourplanner.Shared",
-        "projectPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
-        "packagesPath": "C:\\Users\\t-sch\\.nuget\\packages\\",
-        "outputPath": "C:\\Tobias\\FH\\Semester 4\\Swen\\Tour_Planner\\Tourplanner.Shared\\obj\\",
+        "projectPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\Tourplanner.Shared.csproj",
+        "packagesPath": "C:\\Users\\Anwender\\.nuget\\packages\\",
+        "outputPath": "C:\\Tobias\\FH Technikum\\Swen4\\Tour_Planner\\Tourplanner.Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\t-sch\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Anwender\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -78,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
