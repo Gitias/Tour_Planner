@@ -1,0 +1,16 @@
+# Ignoriere alle .dll Dateien
+*.dll
+
+# Ignoriere alle .pdb Dateien
+*.pdb
+
+# Ignoriere alle Verzeichnisse und Dateien im .vs Ordner
+.vs/
+
+# Ignoriere die generierten Dateien im bin und obj Ordner
+bin/
+obj/
+
+# Ignoriere alle temporären Dateien
+*.log
+*.tmp

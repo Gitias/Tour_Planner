@@ -121,7 +121,7 @@ namespace Tourplanner_.Features.TourView
             TourAttributeCalculator tourAttributeCalculator,
             IExportService exportService,
             IImportService importService,
-            MapService mapService,
+            IMapService mapService,
             IPdfReportService pdfReportService,
             ILoggerFactory loggerFactory)
         {
@@ -286,7 +286,7 @@ namespace Tourplanner_.Features.TourView
             }
         }
 
-        private async void LoadTours()
+        public async void LoadTours()
         {
             try
             {
@@ -521,7 +521,9 @@ namespace Tourplanner_.Features.TourView
                             }
 
                             await _tourService.UpdateTourAsync(SelectedTour);
+
                             logger.Info("Tour erfolgreich bearbeitet");
+
                             LoadTours();
                         }
 
@@ -570,7 +572,7 @@ namespace Tourplanner_.Features.TourView
                         }
 
                         await _tourService.AddTourAsync(tour);
-                        
+
                         logger.Info("Tour erfolgreich hinzugefügt");
 
                         Tours?.Add(tour);
@@ -592,7 +594,7 @@ namespace Tourplanner_.Features.TourView
         {
             if (SelectedTour != null)
             {
-                var mapInfo = await _mapService.GenerateRouteMapAsync(SelectedTour);
+                var mapInfo = await _mapService.GenerateRouteMapAsync(SelectedTour, 17);
 
                 if (mapInfo != null)
                 {
@@ -635,7 +637,7 @@ namespace Tourplanner_.Features.TourView
         private readonly IExportService _exportService;
         private readonly IImportService _importService;
         private readonly TourAttributeCalculator _tourAttributeCalculator;
-        private readonly MapService _mapService;
+        private readonly IMapService _mapService;
         private readonly IPdfReportService _pdfReportService;
         private readonly ILogger logger;
     }

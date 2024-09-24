@@ -38,7 +38,7 @@
                Content="From:" />
 
         <TextBox Grid.Row="5"
-                 Text="{Binding From}">
+         Text="{Binding From}">
             <TextBox.Style>
                 <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
                     <Style.Resources>
@@ -67,7 +67,7 @@
                Content="To:" />
 
         <TextBox Grid.Row="7"
-                 Text="{Binding To}">
+         Text="{Binding To}">
             <TextBox.Style>
                 <Style TargetType="TextBox" xmlns:sys="clr-namespace:System;assembly=mscorlib">
                     <Style.Resources>
