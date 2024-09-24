@@ -53,7 +53,7 @@ namespace Tourplanner_.Features.AddLog {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Tourplanner_;V1.0.0.0;component/features/addlog/addlogview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Tourplanner_;component/features/addlog/addlogview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Features\AddLog\AddLogView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
